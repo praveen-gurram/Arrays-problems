@@ -1,7 +1,7 @@
 package work2;
 
   // Arrays lo biggest element and smallest element;
- /*public class load {
+/* public class load {
 
     public static void main(String[] args) {
 
@@ -26,5 +26,29 @@ package work2;
 
 
 	}*/
+public class load{
+	public static void main(String args[]) {
+		int ele=90;
+		boolean found=false;
+		int arr[]= {12,45,67,89,9};
+		for(int i=0;i<arr.length;++i)
+		{
+		 if(ele==arr[i])
+		 {
+			 System.out.println("presented ");
+			 found=true;
+		 }
+		 
+		}
+		if(!found)
+		{
+			System.out.println(" not presented");
+		}
+		
+		{
+			
+		}
+	}
+}
 
 
